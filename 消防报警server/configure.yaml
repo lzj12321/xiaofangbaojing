@@ -1,0 +1,70 @@
+server:
+  ip: 127.0.0.1
+  port: 8888
+
+workshop:
+  E:
+    ip: 192.168.10.103
+    io: 17
+
+alarmParam:
+  alarmIO: 4
+  stopAlarmMsg: stop alarm
+  startAlarmMsg: start alarm
+  activateAlarm: false
+  closeAlarm: true
+
+securityStaffs:
+  "\u949F\u660E\u91D1": 700004
+  "\u5085\u5EFA\u6574": 700005
+  "\u9A6C\u4E2D\u7965": 700019
+  "\u5F90\u6656\u4EAE": 700026
+  "\u5229\u76DB\u5174": 700022
+  "\u53F6\u623F\u91D1": 700025
+  "\u7A0B\u6D9B": 700011
+  "\u9648\u65B0\u529B": 700010
+
+
+timer:
+  checkAlarmInterval: 2000
+  heartBeatInterval: 2000
+  checkSelfTestInterval: 10000
+  camSelfTestInterval: 10000
+  #camSelfTestInterval: 120000
+  camRetrySelfTestInterval: 10000
+
+
+
+selfTest:
+  cameraSelfTestInterval: 120
+  retryInterval: 10
+  maxRetryTime: 6
+  workshops:
+    E:
+      selfTestTime: 13:37
+      selfTestCameras:
+        "E\u680B\u6D88\u9632\u4E00\u533A":
+          descriptor: "E\u680B\u6D88\u9632\u4E00\u533A"
+        "E\u680B\u6D88\u9632\u4E8C\u533A":
+          descriptor: "E\u680B\u6D88\u9632\u4E8C\u533A"
+        "E\u680B\u6D88\u9632\u4E09\u533A":
+          descriptor: "E\u680B\u6D88\u9632\u4E09\u533A"
+        "E\u680B\u6D88\u9632\u56DB\u533A":
+          descriptor: "E\u680B\u6D88\u9632\u56DB\u533A"
+        "E\u680B\u6D88\u9632\u4E94\u533A":
+          descriptor: "E\u680B\u6D88\u9632\u4E94\u533A"
+        "E\u680B\u6D88\u9632\u516D\u533A":
+          descriptor: "E\u680B\u6D88\u9632\u516D\u533A"
+        "E\u680B\u6D88\u9632\u4E03\u533A":
+          descriptor: "E\u680B\u6D88\u9632\u4E03\u533A"
+        "E\u680B\u6D88\u9632\u516B\u533A":
+          descriptor: "E\u680B\u6D88\u9632\u516B\u533A"
+        "E\u680B\u6D88\u9632\u4E5D\u533A":
+          descriptor: "E\u680B\u6D88\u9632\u4E5D\u533A"
+        "E\u680B\u6D88\u9632\u5341\u533A":
+          descriptor: "E\u680B\u6D88\u9632\u5341\u533A"
+        "E\u680B\u6D88\u9632\u5341\u4E00\u533A":
+          descriptor: "E\u680B\u6D88\u9632\u5341\u4E00\u533A"
+
+alarmData:
+  dayAlarmTime: 447

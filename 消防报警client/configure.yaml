@@ -1,0 +1,29 @@
+server:
+  ip: 192.168.10.102
+  port: 8888
+
+workshop:
+  descriptor: E
+
+button:
+  io: 17
+  checkInterval: 2000
+
+alarmParam:
+  alarmIO: 25
+  stopAlarmMsg: 'stop alarm'
+  startAlarmMsg: 'start alarm'
+  activateAlarm: True
+  closeAlarm: False
+  cameraAlarmState: False
+  cameraNormalState: True
+
+
+timer:
+  checkButtonInterval: 1000
+  checkConnectionInterval: 4000
+
+cameras:
+  camera1:
+    cameraAlarmIO: 27
+

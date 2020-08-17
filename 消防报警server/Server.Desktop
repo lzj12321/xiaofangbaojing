@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Server
+Exec=/home/pi/Documents/anfang_Server/Server
+Icon=/home/pi/Documents/build-Server-unknown-Debug/icon.jpg
+Terminal=false
+Type=Application
+
+
+Path=/home/pi/Documents/anfang_Server/
+GenericName=Server
+Comment[zh_CN]=Server
+Name[zh_CN]=Server
